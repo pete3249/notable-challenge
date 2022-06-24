@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
     console.log('receiving data ...');
     console.log('body is ', req.body);
-    res.send('uploaded file');
+    res.send('uploaded data');
 })
 
 app.listen(port, () => {
